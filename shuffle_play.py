@@ -42,6 +42,7 @@ def main(folder_path):
     # get all mp3 files from the directory
     mp3_files = [f for f in os.listdir(folder_path) if f.endswith('.mp3')]
 
+    print("files: ", mp3_files)
     # shuffle the list of mp3 files
     random.shuffle(mp3_files)
 
